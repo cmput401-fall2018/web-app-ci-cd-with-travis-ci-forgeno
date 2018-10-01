@@ -1,4 +1,4 @@
-def test_:
+def test_function():
 	print("test")
 	
-test()
+test_function()
