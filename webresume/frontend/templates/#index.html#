@@ -7,22 +7,7 @@
   <title>Insert Title Here</title>
 
 
- <!--- <link rel="stylesheet" href="https://raw.githubusercontent.com/cmput401-fall2018/web-app-ci-cd-with-travis-ci-forgeno/master/stylesheet.css">--->
-<style>
-body {
-    background-color: lightblue;
-}
-
-h1 {
-    color: white;
-    text-align: center;
-}
-
-p {
-    font-family: verdana;
-    font-size: 20px;
-}
-</style>
+  <!-- <link rel="stylesheet" href="style.css"> -->
 
 </head>
 
@@ -41,9 +26,7 @@ p {
           $("#name").text(data.data.attributes.name);
           $("#about").text(data.data.attributes.about);
           $("#education").text(data.data.attributes.education);
-          $("#skills").text(data.data.attributes.skills);
-	  $("#work").text(data.data.attributes.work);
-	  $("#contact").text(data.data.attributes.contact);
+  $("#skills").text(data.data.attributes.skills);
           // Complete consuming the API data and updating the work and contact sections
           // HINT: look at the above lines, jquery documentation, see what is the object returned
      
