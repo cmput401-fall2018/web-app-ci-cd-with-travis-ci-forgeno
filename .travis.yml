@@ -5,7 +5,10 @@ python:
 # command to install dependancies
 install:
 - pip install -r requirements.txt
-
+- pip install selenium
+- pip install mock
+- pip install pytest
+- pip freeze > requirements.txt
 #commands to run tests
 script:
 - pytest
