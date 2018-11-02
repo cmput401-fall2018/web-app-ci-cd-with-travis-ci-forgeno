@@ -2,7 +2,12 @@ language: python
 python:
 - "3.6"
 
-# command to install dependancies
+addons:
+ chrome: stable
+
+env:
+ - PATH=$PATH:/usr/lib/chromium-browser/ DISPLAY=:99.0 CHROME_BIN=/usr/bin/google-chrome
+
 install:
 - pip install -r requirements.txt
 - pip install selenium
